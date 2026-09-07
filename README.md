@@ -16,7 +16,7 @@ Early build. Right now this covers the lift mechanism and base structure, built 
 
 ## Robot Overview (so far)
 
-- Vertical lift mechanism, chain and gear driven (currently just raises up, no end mechanism yet)
+- Vertical lift mechanism (DR4B), chain and gear driven 
 - 6-wheel omni drivetrain, 4-motor drive (44W)
 - Built with standard VEX V5 structural and motion components
 
