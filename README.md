@@ -10,20 +10,22 @@ Override is this season's VEX V5 game. Two 2-team alliances compete on a 12'x12'
 
 ## Status
 
-Early build. Right now this covers the lift mechanism and base structure, built and photographed over the summer. Drivetrain, additional mechanisms, more photos, and code will get added as the build continues.
+Progressing. The lift now ends in a claw-style gripper instead of just raising up, and an intake with chains and rollers is taking shape at the base. Drivetrain, wiring, and code are still to come.
 
-![Lift mechanism and base, current build](./media/lift-build.jpg)
+![Extended lift with end effector, current build](./media/full-build.jpg)
 
 ## Robot Overview (so far)
 
-- Vertical lift mechanism (DR4B)
+- Vertical lift mechanism (DR4B), now with a claw-style gripper at the end
+- Intake with chains and rollers, taking shape at the base
 - 6-wheel omni drivetrain, 4-motor drive (44W)
 - Built with standard VEX V5 structural and motion components
 
+![Intake and drivetrain mechanism detail](./media/intake-mechanism.jpg)
+
 ## What's Next
 
-- **Intake:** a mechanism to pick up Pins and Cups off the field and out of the Loaders, most competitive builds use flex wheels or flap-style rollers for this.
-- **Finish the lift:** right now it only raises. It still needs a way to actually hold and place scored elements, and ideally reach both the Tall and Short Goals, not just go up and down.
+- **Finish the intake:** get the chains/rollers picking up Pins and Cups reliably off the field and out of the Loaders.
 - **Toggle interaction:** some way to flip the field's Toggles to my alliance color, since that's worth real points on top of stacking.
 - **Wiring and mounting:** clean up motor/sensor placement once the mechanisms above are locked in.
 - **Code:** autonomous and driver control in C++, using PROS and LemLib.
